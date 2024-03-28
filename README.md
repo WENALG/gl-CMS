@@ -11,7 +11,7 @@ Vue3 + TypeScript 的后台管理系统
 - 账号：lily
 - 密码：123456
 
-![image-20240328160642062](https://github.com/WENALG/try/blob/master/gl-cms-pic/pc1.png))
+![image-20240328160642062](https://github.com/WENALG/try/blob/master/gl-cms-pic/pc1.png)
 
 2、系统管理：
 
@@ -22,17 +22,17 @@ Vue3 + TypeScript 的后台管理系统
 
 三个模块：搜索/重置、内容列表、新建内容
 
-![image-20240328155725804](C:\Users\zgl\AppData\Roaming\Typora\typora-user-images\image-20240328155725804.png)
+![image-20240328155725804](https://github.com/WENALG/try/blob/master/gl-cms-pic/pic2.png)
 
-![image-20240328155822788](C:\Users\zgl\AppData\Roaming\Typora\typora-user-images\image-20240328155822788.png)
+![image-20240328155822788](https://github.com/WENALG/try/blob/master/gl-cms-pic/pic3.png)
 
-![image-20240328155959905](C:\Users\zgl\AppData\Roaming\Typora\typora-user-images\image-20240328155959905.png)
+![image-20240328155959905](https://github.com/WENALG/try/blob/master/gl-cms-pic/pic4.png)
 
 3、商品统计：
 
 - 使用 echarts 图表
 
-![image-20240328160410605](C:\Users\zgl\AppData\Roaming\Typora\typora-user-images\image-20240328160410605.png)
+![image-20240328160410605](https://github.com/WENALG/try/blob/master/gl-cms-pic/pic5.png)
 
 
 
