@@ -11,7 +11,7 @@ Vue3 + TypeScript 的后台管理系统
 - 账号：lily
 - 密码：123456
 
-![image-20240328160642062](C:\Users\zgl\AppData\Roaming\Typora\typora-user-images\image-20240328160642062.png)
+![image-20240328160642062](https://github.com/WENALG/try/blob/master/gl-cms-pic/pc1.png))
 
 2、系统管理：
 
