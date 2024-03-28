@@ -1,46 +1,76 @@
-# vue3-ts-cms
+# 后台管理系统
 
-This template should help get you started developing with Vue 3 in Vite.
+### 1.1 项目介绍
 
-## Recommended IDE Setup
+Vue3 + TypeScript 的后台管理系统
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+完成的功能如下：
 
-## Type Support for `.vue` Imports in TS
+1、登录：
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+- 账号：lily
+- 密码：123456
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+![image-20240328160642062](C:\Users\zgl\AppData\Roaming\Typora\typora-user-images\image-20240328160642062.png)
 
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+2、系统管理：
 
-## Customize configuration
+- 用户管理
+- 部门管理
+- 菜单管理
+- 角色管理
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+三个模块：搜索/重置、内容列表、新建内容
 
-## Project Setup
+![image-20240328155725804](C:\Users\zgl\AppData\Roaming\Typora\typora-user-images\image-20240328155725804.png)
 
-```sh
+![image-20240328155822788](C:\Users\zgl\AppData\Roaming\Typora\typora-user-images\image-20240328155822788.png)
+
+![image-20240328155959905](C:\Users\zgl\AppData\Roaming\Typora\typora-user-images\image-20240328155959905.png)
+
+3、商品统计：
+
+- 使用 echarts 图表
+
+![image-20240328160410605](C:\Users\zgl\AppData\Roaming\Typora\typora-user-images\image-20240328160410605.png)
+
+
+
+### 1.2. 项目规范
+
+**项目规范：项目中有一些开发规范和代码风格**
+
+- 1.文件夹、文件名称统一小写、多个单词以连接符（-）连接；
+- 2.JavaScript变量名称采用小驼峰标识，常量全部使用大写字母，组件采用大驼峰；
+- 3.CSS采用 Less 来编写
+- 4.整个项目全部使用函数式组件，并且全面使用Hooks；
+- 5.业务数据全部放在pinia中管理；
+- 6.网络请求采用axios
+  - 对axios进行二次封装；
+  - 所有的模块请求会放到一个请求文件中单独管理；
+- 7.项目使用 Element Plus 组件库
+  - 使用了Element Plus 中的 菜单、面包屑等待；
+
+### 1.3 项目运行
+
+clone项目：
+
+```
+git clone https://github.com/WENALG/gl-CMS.git
+```
+
+
+
+安装项目依赖：
+
+```
 npm install
 ```
 
-### Compile and Hot-Reload for Development
 
-```sh
+
+项目运行：
+
+```
 npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
 ```
